@@ -14,7 +14,7 @@ function updateClock() {
     mo = now.getMonth(),
     dy = now.getDate(),
     yr = now.getFullYear();
-  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  var months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
   var tags = ["mon", "d", "y", "h", "m", "s", "mi"],
     corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), sec.pad(2), milli];
   for (var i = 0; i < tags.length; i++)
